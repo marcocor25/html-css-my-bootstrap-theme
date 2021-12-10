@@ -229,6 +229,47 @@
 }
 
 .hr-line-margin {
-    margin-bottom: 150px;
+    margin-bottom: 40px;
     border: 1px solid rgb(238, 238, 238);
+}
+
+.easter-egg-title {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.easter-egg-container {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 50px;
+    text-align: center;
+    border: 5px solid rgb(102, 220, 115);
+    border-radius: 20px;
+}
+
+.easter-egg-container img {
+    width: 100%;
+}
+
+.easter-egg-container:hover {
+    background: rgb(2, 22, 49);
+}
+
+.easter-egg-container:hover .rocket {
+    display: block;
+}
+
+.rocket {
+    display: none;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 65px;
+    font-weight: bold;
+    color: rgb(102, 220, 115);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
