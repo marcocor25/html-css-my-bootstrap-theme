@@ -14,7 +14,6 @@
 
 .main-container {
     width: 1000px;
-    height: 1000px;
     position: absolute;
     top: 0;
     left: 50%;
@@ -27,7 +26,6 @@
 
 .nav-bar {
     margin-top: 14px;
-    margin-bottom: 20px;
 }
 
 .nav-title-button {
@@ -59,16 +57,18 @@
 }
 
 .slide {
+    margin-top: 25px;
     text-align: center;
 }
 
 .slide img {
     width: 1000px;
     height: 405px;
+    border-radius: 5px;
 }
 
-.main-title {
-    margin-top: 20px;
+.main-title-1, .main-title-2, .main-title-3, .main-title-4 {
+    margin-top: 30px;
     margin-bottom: 5px;
     font-size: 30px;
     font-weight: 500;
@@ -86,10 +86,11 @@
 .first-section-container {
     width: 320px;
     height: 195px;
-    margin-left: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     display: inline-block;
-    border: 1px solid black;
     border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
     background: white;
     text-align: left;
     font-weight: 300;
@@ -100,6 +101,8 @@
     width: 100%;
     padding: 10px;
     border-bottom: 1px solid rgb(200, 200, 200);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     background: rgb(238, 238, 238);
     font-size: 12px;
 }
@@ -114,6 +117,7 @@
     margin-left: 10px;
     margin-top: 5px;
     border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
     text-align: center;
 }
 
@@ -124,4 +128,107 @@
 
 #first-section-button:hover {
     background: rgba(0, 0, 0, 0.1);
+}
+
+.second-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.second-section-container {
+    width: 320px;
+    height: 150px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 5px;
+    background: white;
+    text-align: left;
+    font-weight: 300;
+    font-size: 13px;
+    position: relative;
+}
+
+.second-section-container-bis {
+    width: 320px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    background: white;
+    text-align: left;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+#second-section-title {
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+    position: relative;
+}
+
+.price {
+    position: absolute;
+    right: 10px;
+}
+
+.product-link {
+    color: rgb(65, 122, 178);
+    font-weight: 400;
+    text-decoration: none; 
+}
+
+.product-link:hover {
+    color: rgb(0, 67, 114);
+    text-decoration: underline;
+}
+
+#second-section-content {
+    padding: 10px;
+}
+
+#second-section-review {
+    color: rgb(198, 122, 130);
+    width: 100px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 25px;
+}
+
+.reviews {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-weight: 500;
+    color: rgb(198, 122, 130);
+}
+
+#second-section-button {
+    width: 80px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background: rgb(65, 122, 178);
+    border: 1px solid rgb(59, 110, 160);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#second-section-button a {
+    text-decoration: none;
+    color: white;
+}
+
+#second-section-button:hover {
+    background: rgb(0, 67, 114);
+}
+
+.hr-line-margin {
+    margin-bottom: 150px;
+    border: 1px solid rgb(238, 238, 238);
 }
