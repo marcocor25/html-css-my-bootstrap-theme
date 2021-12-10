@@ -14,7 +14,7 @@
 
 .main-container {
     width: 1000px;
-    height: 500px;
+    height: 1000px;
     position: absolute;
     top: 0;
     left: 50%;
@@ -23,24 +23,39 @@
 
 .nav-bar-container {
     width: 100%;
-    color: rgb(157, 157, 157);
 }
 
 .nav-bar {
     margin-top: 14px;
     margin-bottom: 20px;
-    font-size: 18px;
-    font-weight: bolder;
 }
 
-.button-section {
+.nav-title-button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(157, 157, 157);
+}
+
+.nav-title-button:hover {
+    color: white;
+}
+
+.nav-button-container {
     margin-left: 355px;
-    font-size: 13px;
     display: inline-block;
 }
 
-.button {
+.nav-button {
     margin-left: 25px;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    color: rgb(157, 157, 157);
+}
+
+.nav-button:hover {
+    color: white;
 }
 
 .slide {
@@ -54,11 +69,59 @@
 
 .main-title {
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: 500;
 }
 
 .hr-line {
-    border: 1px solid rgb(240, 240, 240);
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.first-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.first-section-container {
+    width: 320px;
+    height: 195px;
+    margin-left: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    border: 1px solid rgb(200, 200, 200);
+    background: white;
+    text-align: left;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+#first-section-title {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    background: rgb(238, 238, 238);
+    font-size: 12px;
+}
+
+#first-section-content {
+    padding: 10px;
+}
+
+#first-section-button {
+    width: 100px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 1px solid rgb(200, 200, 200);
+    text-align: center;
+}
+
+#first-section-button a {
+    text-decoration: none;
+    color: black;
+}
+
+#first-section-button:hover {
+    background: rgba(0, 0, 0, 0.1);
 }
