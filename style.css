@@ -272,7 +272,7 @@
 
 .footer-container {
     width: 100%;
-    height: 500px;
+    height: 460px;
     margin-top: 20px;
     font-size: 14px;
     font-weight: 300;
@@ -323,3 +323,14 @@
 #banner-button:hover {
     background: rgb(0, 67, 114);
 }
+
+.copyright {
+    margin-top: 40px;
+}
+
+.copyright a {
+    color: rgb(65, 122, 178);
+    text-decoration: none;
+}
+
+/* Fine */
